@@ -1,0 +1,19 @@
+.header {
+    width          : 100%;
+    background     : #fff;
+    display        : flex;
+    justify-content: center;
+}
+
+.header__text {
+    font-family   : var(--font-family);
+    font-weight   : 700;
+    font-size     : 30px;
+    line-height   : 130%;
+    text-align    : center;
+    color         : #2d3242;
+    padding-top   : 20px;
+    padding-bottom: 20px;
+    margin-right  : 23px;
+    align-self    : center;
+}

@@ -1,0 +1,108 @@
+.popup-card {
+    border        : 2px solid #e7eaf1;
+    border-radius : 20px;
+    padding       : 26px 22px 20px 26px;
+    width         : 31.126%;
+    display       : flex;
+    flex-direction: column;
+    box-sizing    : border-box;
+}
+
+.popup-card_active {
+    background: rgba(1, 185, 197, 0.05);
+    border    : 2px solid #01b9c5;
+}
+
+.popup-card:hover {
+    opacity: 0.8;
+    cursor : pointer;
+}
+
+.popup-card__price-container {
+    max-width: 82px;
+}
+
+.popup-card__period {
+    font-family  : var(--second-family);
+    font-weight  : 400;
+    font-size    : 26px;
+    line-height  : 100%;
+    color        : #2d3242;
+    margin-bottom: 12px;
+}
+
+.popup-card__price {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size  : 20px;
+    line-height: 110%;
+    color      : rgba(45, 50, 66, 0.7);
+    position   : relative;
+}
+
+.popup-card__price::before {
+    content  : "";
+    position : absolute;
+    border   : 1px solid #fd4d35;
+    width    : 50px;
+    transform: rotate(18deg);
+    top      : 45%;
+    left     : -1px;
+}
+
+.popup-card__price::after {
+    content  : "";
+    position : absolute;
+    border   : 1px solid #fd4d35;
+    width    : 50px;
+    transform: rotate(-18deg);
+    left     : -1px;
+    top      : 40%;
+}
+
+.popup-card__top-container {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 16px;
+}
+
+.popup-card__line {
+    margin-left  : auto;
+    margin-right : auto;
+    margin-bottom: 24px;
+}
+
+.popup-card__discount-container {
+    position: relative;
+}
+
+.popup-card__discount {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size  : 46px;
+    line-height: 110%;
+    color      : #2d3242;
+}
+
+.popup-card__discount-value {
+    position         : absolute;
+    width            : 50px;
+    height           : 50px;
+    top              : -30%;
+    right            : -10%;
+    font-family      : var(--font-family);
+    font-weight      : 500;
+    font-size        : 13px;
+    line-height      : 130%;
+    color            : #fff;
+    background-image : url("../images/discount-star-small.svg");
+    background-repeat: no-repeat;
+    display          : flex;
+    align-items      : center;
+    justify-content  : center;
+}
+
+.input-radio {
+    width : 22px;
+    height: 22px;
+}

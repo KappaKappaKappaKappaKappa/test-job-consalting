@@ -1,0 +1,45 @@
+.timer-container {
+    display       : flex;
+    align-items   : center;
+    gap           : 10px;
+    padding-top   : 10px;
+    padding-bottom: 10px;
+}
+
+.timer-text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size  : 16px;
+    line-height: 130%;
+    text-align : center;
+    color      : #818798;
+}
+
+.timer-number {
+    font-family   : var(--font3);
+    font-weight   : 400;
+    font-size     : 60px;
+    line-height   : 103%;
+    text-transform: uppercase;
+    text-align    : center;
+    color         : #01b9c5;
+}
+
+.timer-number_pulse {
+    color    : #fd4d35;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

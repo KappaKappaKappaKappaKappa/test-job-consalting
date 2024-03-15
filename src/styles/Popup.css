@@ -1,0 +1,167 @@
+.hot-offers {
+    position      : absolute;
+    left          : 42px;
+    font-family   : var(--font-family);
+    font-weight   : 500;
+    font-size     : 16px;
+    line-height   : 130%;
+    letter-spacing: 0.02em;
+    color         : #fff;
+
+    padding   : 4px 10px 6px 10px;
+    width     : 193px;
+    height    : 31px;
+    background: #01b9c5;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.popup__close-btn {
+    all     : unset;
+    width   : 24px;
+    height  : 24px;
+    position: absolute;
+    right   : 20px;
+    top     : 20px;
+}
+
+.popup__close-btn:hover {
+    cursor: pointer;
+}
+
+.popup {
+    width         : 46.53%;
+    position      : fixed;
+    top           : 50%;
+    left          : 50%;
+    transform     : translate(-50%, -50%);
+    z-index       : 1;
+    background    : #f5f7f7;
+    padding-left  : 40px;
+    padding-right : 40px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+
+}
+
+.popup-container {
+    display: none;
+}
+
+.popup-container_active {
+    display: flex;
+}
+
+.popup-container::before {
+    content   : "";
+    position  : fixed;
+    top       : 0;
+    left      : 0;
+    width     : 100%;
+    height    : 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index   : 0;
+}
+
+.title-container {
+    margin-top    : 61px;
+    max-width     : 573px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.popup__title {
+    font-family   : var(--third-family);
+    font-weight   : 700;
+    font-size     : 30px;
+    line-height   : 130%;
+    text-transform: uppercase;
+    color         : #12191d;
+    margin-bottom : 30px;
+}
+
+.popup__title_green {
+    display: inline;
+    color  : #01b9c5;
+}
+
+.popup__text {
+    font-family  : var(--font-family);
+    font-weight  : 500;
+    font-size    : 24px;
+    line-height  : 130%;
+    color        : #12191d;
+    margin-bottom: 8px;
+}
+
+.popup__text_bold {
+    display    : inline;
+    font-family: var(--third-family);
+
+    color: #2d3242;
+}
+
+.popup__discount {
+    border       : 1.50px solid #01b9c5;
+    border-radius: 30px;
+    padding      : 12px 28px 16px 30px;
+    font-family  : var(--font-family);
+    font-weight  : 700;
+    font-size    : 24px;
+    line-height  : 130%;
+    color        : #2d3242;
+    margin-bottom: 40px;
+}
+
+.popup__discount_green {
+    color  : #01b9c5;
+    display: inline;
+}
+
+.discounts__container {
+    align-self: flex-start;
+}
+
+.discounts-text {
+    font-family  : var(--font-family);
+    font-weight  : 500;
+    font-size    : 24px;
+    line-height  : 130%;
+    color        : #12191d;
+    margin-bottom: 20px;
+}
+
+.popup__button {
+    all          : unset;
+    box-sizing   : border-box;
+    text-align   : center;
+    border-radius: 30px;
+    padding      : 20px 42px 22px 42px;
+    width        : 310px;
+    height       : 62px;
+    background   : #fd4d35;
+
+    font-family: var(--third-family);
+    font-weight: 500;
+    font-size  : 20px;
+    line-height: 100%;
+    color      : #fff;
+
+    margin-bottom: 40px;
+}
+
+.popup__button:hover {
+    opacity: 0.8;
+    cursor : pointer;
+}
+
+.popup-cards-container {
+    width          : 100%;
+    display        : flex;
+    gap            : 20px;
+    justify-content: center;
+    margin-bottom  : 40px;
+}

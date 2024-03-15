@@ -1,0 +1,83 @@
+.big-card {
+    border       : 2px solid #d3d6dd;
+    border-radius: 20px;
+    width        : 585px;
+    height       : 125px;
+    padding      : 23px 52px 25px 31px;
+    display      : flex;
+    box-sizing   : border-box;
+    position     : relative;
+}
+
+.big-card:hover {
+    opacity: 0.8;
+    cursor : pointer;
+}
+
+.big-card_select {
+    border    : 2px solid #01b9c5;
+    background: rgba(1, 185, 197, 0.05);
+}
+
+.big-card__title {
+    font-family : var(--second-family);
+    font-weight : 400;
+    font-size   : 38px;
+    line-height : 100%;
+    color       : #2d3242;
+    margin-top  : 15px;
+    margin-right: 20px;
+}
+
+.big-card__praces {
+    max-width     : 142px;
+    display       : flex;
+    flex-direction: column;
+    margin-right  : 55px;
+}
+
+.big-card__price {
+    font-family   : var(--font-family);
+    font-weight   : 700;
+    font-size     : 50px;
+    line-height   : 110%;
+    letter-spacing: -0.04em;
+    color         : #2d3242;
+}
+
+.big-card__discount {
+    font-family    : var(--font-family);
+    font-weight    : 500;
+    font-size      : 24px;
+    line-height    : 110%;
+    color          : #95979f;
+    text-align     : right;
+    text-decoration: line-through;
+}
+
+.big-card__comment {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size  : 16px;
+    line-height: 130%;
+    color      : #2f4353;
+    max-width  : 161px;
+}
+
+.big-card__discount-value {
+    width            : 70px;
+    height           : 70px;
+    position         : absolute;
+    top              : -30%;
+    right            : 0;
+    font-family      : var(--font-family);
+    font-weight      : 500;
+    font-size        : 18px;
+    line-height      : 130%;
+    color            : #fff;
+    background-image : url("../images/discount-star.svg");
+    background-repeat: no-repeat;
+    display          : flex;
+    align-items      : center;
+    justify-content  : center;
+}

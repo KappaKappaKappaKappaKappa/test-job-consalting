@@ -1,0 +1,130 @@
+.main-page {
+    margin-bottom: 107px;
+    position     : relative;
+}
+
+.image__opacity {
+    position  : absolute;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(245, 247, 247, 0.6));
+    width     : 403px;
+    height    : 131px;
+    bottom    : 0px;
+}
+
+
+.title {
+    font-family   : var(--third-family);
+    font-weight   : 700;
+    font-size     : 40px;
+    line-height   : 110%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align    : center;
+    color         : #2d3242;
+    padding-top   : 27px;
+    padding-bottom: 68px;
+}
+
+.info-container {
+    display        : flex;
+    padding-left   : 171px;
+    padding-right  : 171px;
+    position       : relative;
+    justify-content: space-between;
+}
+
+.card__info-container {
+    margin-bottom: 18px;
+}
+
+.card__img {
+    width : 70px;
+    height: 70px;
+}
+
+
+.cards-container {
+    max-width: 585px;
+}
+
+.text {
+    font-family  : var(--font-family);
+    font-weight  : 500;
+    font-size    : 18px;
+    line-height  : 130%;
+    color        : #2d3242;
+    max-width    : 585px;
+    margin-top   : 13px;
+    margin-bottom: 26px;
+    margin-bottom: 26px;
+}
+
+.rules {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 110%;
+    color      : #818798;
+}
+
+.rules__link {
+    color          : #2d97f9;
+    text-decoration: none;
+}
+
+.rules-container {
+    display      : flex;
+    align-items  : center;
+    gap          : 6px;
+    margin-bottom: 50px;
+}
+
+.rules-checkbox {
+    width        : 24px;
+    height       : 24px;
+    border-radius: 5px;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.button-buy {
+    border-radius : 60px;
+    padding       : 28px 100px;
+    font-family   : var(--third-family);
+    font-weight   : 500;
+    font-size     : 20px;
+    line-height   : 100%;
+    text-transform: uppercase;
+    color         : #fff;
+    background    : #fd4d35;
+    border        : none;
+    margin-bottom : 30px;
+    animation     : pulse 2s infinite;
+}
+
+
+
+.button-buy:hover {
+    cursor : pointer;
+    opacity: 0.8;
+}
+
+.buy-description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size  : 14px;
+    line-height: 130%;
+    color      : #818798;
+}

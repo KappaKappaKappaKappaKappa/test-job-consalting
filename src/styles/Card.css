@@ -1,0 +1,76 @@
+.card {
+
+    border       : 2px solid #d3d6dd;
+    border-radius: 20px;
+    width        : 187px;
+    height       : 261px;
+    box-sizing   : border-box;
+    padding      : 45px 36px 26px 31px;
+    position     : relative;
+}
+
+.card:hover {
+    opacity: 0.8;
+    cursor : pointer;
+}
+
+.card_select {
+    border    : 2px solid #01b9c5;
+    background: rgba(1, 185, 197, 0.05);
+}
+
+.card__title {
+    font-family  : var(--second-family);
+    font-weight  : 400;
+    font-size    : 30px;
+    line-height  : 100%;
+    color        : #687078;
+    margin-bottom: 21px;
+}
+
+.card__price {
+    font-family    : var(--font-family);
+    font-weight    : 500;
+    font-size      : 24px;
+    line-height    : 110%;
+    color          : #95979f;
+    text-align     : right;
+    text-decoration: line-through;
+}
+
+.card__discount {
+    font-family   : var(--font-family);
+    font-weight   : 700;
+    font-size     : 50px;
+    line-height   : 110%;
+    letter-spacing: -0.04em;
+    color         : #2d3242;
+    text-align    : right;
+}
+
+.card__comment {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size  : 16px;
+    line-height: 130%;
+    text-align : center;
+    color      : #2f4353;
+}
+
+.card__discount-value {
+    width            : 70px;
+    height           : 70px;
+    position         : absolute;
+    top              : -10%;
+    right            : 0;
+    font-family      : var(--font-family);
+    font-weight      : 500;
+    font-size        : 18px;
+    line-height      : 130%;
+    color            : #fff;
+    background-image : url("../images/discount-star.svg");
+    background-repeat: no-repeat;
+    display          : flex;
+    align-items      : center;
+    justify-content  : center;
+}
