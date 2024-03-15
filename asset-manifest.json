@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-job-consalting/static/css/main.7d4326c8.css",
+    "main.js": "/test-job-consalting/static/js/main.1889540e.js",
+    "static/media/PT-Root-UI_Medium.ttf": "/test-job-consalting/static/media/PT-Root-UI_Medium.0133b1f6b0cf2181d0ba.ttf",
+    "static/media/PT-Root-UI_Bold.ttf": "/test-job-consalting/static/media/PT-Root-UI_Bold.2d36200aa6fb76063e2b.ttf",
+    "static/media/PT-Root-UI_Regular.ttf": "/test-job-consalting/static/media/PT-Root-UI_Regular.c685fce3b2cd5296b24c.ttf",
+    "static/media/ka4ok.png": "/test-job-consalting/static/media/ka4ok.29b19fb2edc9821a5cc8.png",
+    "static/media/Rubik-Bold.ttf": "/test-job-consalting/static/media/Rubik-Bold.c934eb22c2c69992b34c.ttf",
+    "static/media/Rubik-Medium.ttf": "/test-job-consalting/static/media/Rubik-Medium.0e121b4fa4d6e9bc5c69.ttf",
+    "static/media/bebasneuecyrillic.ttf": "/test-job-consalting/static/media/bebasneuecyrillic.f39fe92d35bac3b2fe60.ttf",
+    "static/media/discount-star-small.svg": "/test-job-consalting/static/media/discount-star-small.cffffabf54a1805e21c7.svg",
+    "static/media/discount-star.svg": "/test-job-consalting/static/media/discount-star.e91669d1279b6d0bff40.svg",
+    "index.html": "/test-job-consalting/index.html",
+    "main.7d4326c8.css.map": "/test-job-consalting/static/css/main.7d4326c8.css.map",
+    "main.1889540e.js.map": "/test-job-consalting/static/js/main.1889540e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d4326c8.css",
+    "static/js/main.1889540e.js"
+  ]
+}
